@@ -8,18 +8,7 @@ from platform import uname
 
 from os import path,system
 
-arch=uname().machine.lower()
-
-if "aarch" in arch:
-
-    arch="aarch"
-
-    print('\033[1;32m\nCongratulatings! Your Deviec Support This Tools');time.sleep(2)
-
-else:
-
-    print('\033[1;31m\nSorry System not support this tools');sys.exit()
-
+print('\033[1;32m\nCongratulatings! Your Deviec Support This Tools');time.sleep(2)
     
 
 os.system("xdg-open https://www.facebook.com/akash.404.cyber")
