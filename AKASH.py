@@ -45,23 +45,29 @@ print("")
 
 print("[1]RAMDOM UID CLONE MIX ID M1")
 print("[2]RANDOM UID CLONE MIX ID M2")
+print("[3]RANDOM UID CLONE MIX ID M3")
 print("[3]EXIT")
 
 xd=input('CHOOSE: ')
 
 if xd in ['1','01']:
 
-    if path.isfile('AKASHM1.cpython-311.so'):
+    if path.isfile('M1.cpython-311.so'):
 
-        import AKASHM1
+        import M1
 
         
 
-elif xd in ['2','02']:
+if xd in ['2','02']:
 
-    if path.isfile('AKASHM2.cpython-311.so'):
+    if path.isfile('M2.cpython-311.so'):
 
-        import AKASHM2    
+        import M2    
+
+elif xd in ['3','03']:
+    if path.isfile('M3.cpython-311.so'):
+
+        import M3    
 
  
 
