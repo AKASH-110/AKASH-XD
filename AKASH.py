@@ -43,14 +43,14 @@ print(logo)
 
 print("")
 
-print("[1]RAMDOM UID CLONE ONLY OK 《mbasic.facebook.com》")
+print("[1]RAMDOM UID CLONE")
 print("[2]EXIT")
 
 xd=input('CHOOSE: ')
 
 if xd in ['1','01']:
 
-    if path.isfile('AKASH.cpython-311.so'):
+    if path.isfile('AKASH.so'):
 
         import AKASH
 
