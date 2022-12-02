@@ -43,9 +43,9 @@ xd=input('CHOOSE: ')
 
 if xd in ['1','01']:
 
-    if path.isfile('AKASH.so'):
+    if path.isfile('AK.cpython-311.so'):
 
-        import AKASH
+        import AK
 
       
 
