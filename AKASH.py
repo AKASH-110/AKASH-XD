@@ -1,18 +1,11 @@
 import os
-
 import time
-
 import sys
-
 from platform import uname
-
 from os import path,system
+print('\033[38;5;46m\nCongratulatings! Your Deviec Support This Tools');time.sleep(2)
 
-print('\033[1;32m\nCongratulatings! Your Deviec Support This Tools');time.sleep(2)
-
-    
-
-os.system("xdg-open https://www.facebook.com/akash.404.cyber")
+    os.system("xdg-open https://www.facebook.com/akash.404.cyber")
 
 def clear():
 
@@ -43,7 +36,7 @@ print(logo)
 
 print("")
 
-print("[1]RAMDOM UID CLONE")
+print("\033[38;5;46m[1]RAMDOM UID CLONE")
 print("[2]EXIT")
 
 xd=input('CHOOSE: ')
