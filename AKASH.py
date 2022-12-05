@@ -17,8 +17,8 @@ bit = platform.architecture()[0]
 
 if bit == '64bit':
 
-    import AK
+    import AKASH
 
 elif bit == '32bit':
 
-    import AK
+    import AKASH
